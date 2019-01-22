@@ -4,7 +4,7 @@
   margin: 50px; }
 
  .gray {
-  background-color: #e6ffff; }
+  background-color: #e6e6e6; }
 
  .green {
   background-color: #b9f6ca; }
@@ -23,22 +23,24 @@
 
 .foot {
   opacity: 1;
-  color: black;
+  color: #3af;;
   text-align: center;
   padding: 2px;
   font-size:1.5vw;
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
   margin-top: 100%;
+  text-decoration: none;
 }
 .foot-1 {
-  color: black;
+  color: #3af;;
   padding: 2px;
   font-size: 1.5vw;
   font-family: 'Times New Roman', Times, serif;
   padding-left: 4%;
   position: absolute;
   margin-top: 85%;
+  text-decoration: none;
 }
 
 .gridstyle {

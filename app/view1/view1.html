@@ -12,7 +12,7 @@
             md-rowspan="4" md-colspan="4" md-colspan-xs="4" md-colspan-sm="4" md-colspan-md="4" md-colspan-lg="4">
           <img ng-src="{{images[0].url}}" alt="Image is Loading....">
         <!-- <md-grid-tile-footer class="foot-1"> -->
-          <p class="foot-1" >{{data[0]}}</p>
+          <a href="" class="foot-1" >{{data[0]}}</a>
         <!-- </md-grid-tile-footer> -->
       </md-grid-tile>
   
@@ -22,7 +22,7 @@
             ng-repeat="x in images" ng-if="$index > 0">
             <img ng-src="{{images[$index].url}}" alt="Image is Loading....">
         <!-- <md-grid-tile-footer class="foot"> -->
-          <p class="foot">{{data[$index]}}</p>
+          <a href="" class="foot">{{data[$index]}}</a>
         <!-- </md-grid-tile-footer> -->
       </md-grid-tile>
   
