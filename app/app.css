@@ -1,25 +1,56 @@
-/* app css stylesheet */
 
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+
+.gridListdemoBasicUsage md-grid-list {
+  margin: 50px; }
+
+ .gray {
+  background-color: #e6ffff; }
+
+ .green {
+  background-color: #b9f6ca; }
+
+ .yellow {
+  background-color: #ffff8d; }
+
+ .blue {
+  background-color: #84ffff; }
+
+ .purple {
+  background-color: #b388ff; }
+
+ .red {
+  background-color: #ff8a80; }
+
+.foot {
+  opacity: 1;
+  color: black;
+  text-align: center;
+  padding: 2px;
+  font-size:1.5vw;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  margin-top: 100%;
+}
+.foot-1 {
+  color: black;
+  padding: 2px;
+  font-size: 1.5vw;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 4%;
+  position: absolute;
+  margin-top: 85%;
 }
 
-.menu:before {
-  content: "[";
+.gridstyle {
+  margin-top: -10px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
-.menu:after {
-  content: "]";
+.grid-1 {
+  width: calc(47.5%) !important
 }
-
-.menu > li {
-  display: inline;
-}
-
-.menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
+.grid-2 {
+  width: calc(23.25%) !important; 
+  /* left: calc(76.75%) !important; */
 }
