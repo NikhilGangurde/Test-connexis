@@ -1,9 +1,9 @@
 {
-  "name": "angular-seed",
+  "name": "Test-connexis",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "description": "Test project for connexis",
+  "repository": "https://github.com/NikhilGangurde/Test-connexis",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.7.5",
