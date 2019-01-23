@@ -17,7 +17,7 @@
       <md-grid-tile class="grid-2"
             md-rowspan="2" md-colspan="2" md-colspan-xs="2" md-colspan-md="2" md-colspan-lg="2" md-colspan-lg="4" 
             ng-repeat="x in images" ng-if="$index > 0 && $index < 5">
-            <img ng-src="{{images[$index].url}}" alt="Image is Loading....">
+            <img class="RestImage" ng-src="{{images[$index].url}}" alt="Image is Loading....">
             <a href="" class="foot">{{data[$index]}}</a>
       </md-grid-tile>
 

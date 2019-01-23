@@ -9,7 +9,7 @@
 .foot         /* Image Title css */
 {
   width: 100%;
-  color: #3af;;
+  color: black;
   text-align: left;
   padding: 2px;
   font-size:1.5vw;
@@ -21,7 +21,7 @@
 }
 .foot-1            /* Image Title css */
 {
-  color: #3af;
+  color: black;
   width: 100%;
   text-align: left !important;
   padding: 2px;
@@ -50,4 +50,9 @@
   width: 100%;
   height: 82%;
 
+}
+.RestImage
+{
+  width: 100%;
+  height: 64%;
 }
