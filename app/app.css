@@ -15,27 +15,31 @@
   font-size:1.5vw;
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
-  margin-top: 120px;
   margin-left: 2px;
+  bottom: -20px;
+  right: 0;
   text-decoration: none;
 }
 .foot-1            /* Image Title css */
 {
   color: black;
   width: 100%;
-  text-align: left !important;
   padding: 2px;
   font-size: 1.5vw;
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
-  margin-top: 240px;
+  float: left;
+  clear: left;
+  /* margin-top: 240px; */
+  bottom: 0;
+  right: 0;
   margin-left: 2px;
   text-decoration: none;
 }
 .gridstyle      /* grid List css */
 {
   margin-top: 0px !important;
-  margin:10%; 
+  margin:10%;
 }
 .grid-1         /* grid tile 1 css */
 {
