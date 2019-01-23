@@ -10,33 +10,16 @@
   
       <md-grid-tile class="grid-1"
             md-rowspan="4" md-colspan="4" md-colspan-xs="4" md-colspan-sm="4" md-colspan-md="4" md-colspan-lg="4">
-          <img ng-src="{{images[0].url}}" alt="Image is Loading....">
-        <!-- <md-grid-tile-footer class="foot-1"> -->
+          <img class="FirstImage" ng-src="{{images[0].url}}" alt="Image is Loading....">
           <a href="" class="foot-1" >{{data[0]}}</a>
-        <!-- </md-grid-tile-footer> -->
       </md-grid-tile>
-  
-      
+
       <md-grid-tile class="grid-2"
             md-rowspan="2" md-colspan="2" md-colspan-xs="2" md-colspan-md="2" md-colspan-lg="2" md-colspan-lg="4" 
-            ng-repeat="x in images" ng-if="$index > 0">
+            ng-repeat="x in images" ng-if="$index > 0 && $index < 5">
             <img ng-src="{{images[$index].url}}" alt="Image is Loading....">
-        <!-- <md-grid-tile-footer class="foot"> -->
-          <a href="" class="foot">{{data[$index]}}</a>
-        <!-- </md-grid-tile-footer> -->
+            <a href="" class="foot">{{data[$index]}}</a>
       </md-grid-tile>
-  
+
     </md-grid-list>
   </div>
-  
-  
-
-
-   <!-- <div class="row">
-       <div class="col-md-3">
-            <img ng-src="{{images[0].url}}" alt="hello">
-           </div>
-           <div class="col-md-3">
-                <img ng-src="{{images[0].url}}" alt="hello">
-               </div>
-   </div> -->
